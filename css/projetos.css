@@ -14,6 +14,11 @@ h1 {
 
     margin: 5%;
 }
-a{
+
+a {
+    text-decoration: none;
     color: chocolate;
+}
+a:hover{
+    color: white;
 }
