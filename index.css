@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://img.freepik.com/vetores-premium/cor-de-tom-cinza-e-ilustracao-abstrata-de-fundo-com-setas-de-cor-branca_189959-643.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    border: 2px black solid;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-link:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 4px black;
+    transition: all 2s ease-in-out;
+
+}
+
+.text-header {
+    background-color: rgb(240, 189, 61);
+    text-shadow: 1px 1px white;
+    border: 2px black solid;
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-paragrafo {
+    color: chocolate
+}
+
+.list-link {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.rodape1 {
+    justify-content: center;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+#up {
+    color: chocolate;
+}
+
+.quemsoueu {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 100px auto;
+    border: 2px black solid;
+    display: flex;
+    gap: 350px;
+}
+
+.projetos1 {
+    display: flex;
+    justify-content: space-around;
+    border: 2px black solid;
+}
+
+.titulo-projeto {
+    display: flex;
+    justify-content: center;
+    color: rgb(240, 189, 61);
+    margin: 80px;
+
+}
+
+.foto {
+    display: flex;
+    justify-content: right;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    width: 300px;
+    height: 300px;
+}
+
+.foto:hover {
+    box-shadow: 0 4px 4px #999;
+    transition: all .2s ease-in-out;
+}
+
+.ftcal {
+    display: flex;
+    justify-content: right;
+    width: 400px;
+    height: 250px;
+    border-radius: 60%;
+}
+
+.ftcal:hover,
+.ftimc:hover {
+    box-shadow: 0 4pc 4pc black;
+    transition: all .5s ease-in-out;
+}
+
+.ftimc {
+    display: flex;
+    justify-content: right;
+    width: 400px;
+    height: 250px;
+    border-radius: 60%;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem {
+    display: flex;
+}
+
+.texto1 {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+.contato1 {
+    display: flex;
+    margin: 100px auto;
+    justify-content: space-around;
+    border: 2px black solid;
+}
+
+.titulo-contato {
+    display: flex;
+    justify-content: center;
+    color: rgb(240, 189, 61);
+    margin: 80px;
+}
+
+#gmail {
+    width: 300px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#gmail:hover {
+    box-shadow: 0 4pc 4pc black;
+    transition: all .5s ease-in-out;
+}
+
+#github {
+    width: 330px;
+    height: 220px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#github:hover {
+    box-shadow: 0 4pc 4pc black;
+    transition: all .5s ease-in-out;
+}
+
+#linkedin {
+    padding: 15px;
+    width: 300px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+#linkedin:hover {
+    box-shadow: 0 4pc 4pc black;
+    transition: all .5s ease-in-out;
+}
+
+#quemsoueu:hover,
+#projetos:hover,
+#contato1:hover {
+    box-shadow: 0 4px 4px grey;
+    transition: all .2s ease-in-out;
+}
