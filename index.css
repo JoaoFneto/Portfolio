@@ -135,8 +135,31 @@ a {
 .texto1 {
     display: flex;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
     width: 300px;
     height: 300px;
+    width: 50ch;
+    overflow: hidden;
+    animation: typing 3s steps(50),
+        blinking 1s infinite step-end;
+    color: chocolate;
+
+}
+
+@keyframes typing {
+
+    from {
+        width: 0;
+        color: black;
+    }
+
+}
+
+@keyframes blinking {
+
+    50% {
+        border-color: transparent;
+    }
 }
 
 .contato1 {
