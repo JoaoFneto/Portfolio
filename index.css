@@ -58,11 +58,7 @@ a {
     padding: 20px;
 }
 
-#uphome {
-    color: chocolate;
-}
-
-#up {
+.uphome {
     color: chocolate;
 }
 
@@ -180,44 +176,44 @@ a {
     margin: 80px;
 }
 
-#gmail {
+.gmail {
     width: 300px;
     height: 250px;
     border-radius: 50%;
 }
 
-#gmail:hover {
+.gmail:hover {
     box-shadow: 0 4pc 4pc black;
     transition: all .5s ease-in-out;
 }
 
-#github {
+.github {
     width: 330px;
     height: 220px;
     margin: 10px;
     border-radius: 50%;
 }
 
-#github:hover {
+.github:hover {
     box-shadow: 0 4pc 4pc black;
     transition: all .5s ease-in-out;
 }
 
-#linkedin {
+.linkedin {
     padding: 15px;
     width: 300px;
     height: 220px;
     border-radius: 50%;
 }
 
-#linkedin:hover {
+.linkedin:hover {
     box-shadow: 0 4pc 4pc black;
     transition: all .5s ease-in-out;
 }
 
-#quemsoueu:hover,
-#projetos:hover,
-#contato1:hover {
+.quemsoueu:hover,
+.projetos:hover,
+.contato1:hover {
     box-shadow: 0 4px 4px grey;
     transition: all .2s ease-in-out;
 }
